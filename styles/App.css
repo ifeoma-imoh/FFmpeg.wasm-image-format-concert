@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  select{
+    padding: 15px ;
+    font-size: 1.4rem;
+    background-color: transparent;
+    color: #f1f1f1;
+  }
+  .form_g{
+    display: grid;
+    background-color: #0C050B
+  }
+  .form_g label {
+    padding: 10px ;
+    background-color: #0a57fe;
+    color: #f2f2f2;
+    font-size: 1.2rem;
+  }
+  .file_picker {
+    border: 3px dashed #666;
+    cursor: pointer;
+    display: block;
+    display: grid;
+    place-items: center;
+    font-weight: 700;
+    height: 100%;
+    padding: 12rem 0;
+  }
+  #file_picker_small {
+    padding: 3rem 2rem;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .deck {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    align-items: start;
+    margin-top: 1.4rem;
+  
+    gap: 4rem;
+  }
+  .deck > * {
+    border-radius: 5px;
+    align-items: start;
+  }
+  
+  .deck > button {
+    align-self: center;
+  }
+  
+  .grid_txt_2 {
+    display: grid;
+    gap: 1rem;
+  }
+  .flexi{
+    display: flex;
+    gap: 10px;
+    text-transform: uppercase;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  button {
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #f4f4f4;
+    color: rgb(155, 150, 150);
+  }
+  
+  .btn {
+    padding: 1rem 2rem;
+    border-radius: 100px;
+    font-size: 1.2rem;
+  }
+  
+  .btn_g {
+    background-color: #24d34e;
+    color: #f2f2f2;
+  }
+  .col-r{
+    color: red;
+    font-weight: bolder;
+    font-size: 40px;
+  }
+  .col-g{
+    color: #24d34e;
+    font-weight: bolder;
+    font-size: 40px;
+  }
+  .btn_b {
+    background-color: #0a57fe;
+    color: #f3f3f3;
+  }
+  .bord_g_2 {
+    border: 2px solid rgb(230, 220, 220);
+  }
+  .p_2 {
+    padding: 2rem;
+  }
+  .u-center {
+    text-align: center;
+  }
+  
